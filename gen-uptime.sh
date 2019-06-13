@@ -3,7 +3,7 @@
 # Target: XFCE Generic Monitor (xfce-genmon-plugin)
 # Description: Displays readable system uptime and last boot
 # Dependencies: bash>=3.2, file, gawk
-# Author: N.Lichtwald, see <https://github.com/nikk01/>
+# Author: N.Lichtwald, see <https://github.com/niwald/>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
