@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Filename: gen-uptime.sh
-# Target: XFCE Generic Monitor (xfce-genmon-plugin)
+# Target: XFCE Generic Monitor (xfce4-genmon-plugin)
 # Description: Displays readable system uptime and last boot
 # Dependencies: bash>=3.2, file, gawk
 # Author: N.Lichtwald, see <https://github.com/niwald/>
@@ -27,7 +27,7 @@ readonly LASTBOOT=$(who -b | awk '{print $3, $4}')
 # Genmon panel XML
 XPAN="<img>${UPTIME_ICON}</img>"
 XPAN+="<txt>" 
-XPAN+=" <span weight='Bold' fgcolor='#cccccc'>${UPTIME}</span> "
+XPAN+=" <span fgcolor='#cccccc'>${UPTIME}</span> "
 XPAN+="</txt>"
 
 # Genmon tooltip XML

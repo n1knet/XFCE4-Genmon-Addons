@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Filename: gen-mem.sh
-# Target: XFCE Generic Monitor (xfce-genmon-plugin)
+# Target: XFCE Generic Monitor (xfce4-genmon-plugin)
 # Description: Displays NVIDIA GPU temperature and useful stats 
 # Dependencies: bash>=3.2, file, gawk
-# Copyright (C) 2019 N.Lichtwald, see <https://github.com/liwald/>
+# Copyright (C) 2019 N.Lichtwald, see <https://github.com/niwald/>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -43,7 +43,7 @@ XCOLOR="#000000"
 # Determine color of temerature indicator
 # Max temperature depending on your GPU is 91 to 105 degrees celsius
 # Anything above 70 - 80 degrees celsius should be indicated red
-if [ $GTMP -gt 35 ]; then
+if [ $GTMP -gt 40 ]; then
 	XCOLOR="#FFFF00" #yellow
 elif [ $GTMP -gt 70 ]; then
 	XCOLOR="#FF0000" #red
@@ -54,7 +54,7 @@ fi
 # Genmon panel XML
 XPAN="<img>${NVIDIA_ICON}</img>"
 XPAN+="<txt>"
-XPAN+=" <span weight='bold' fgcolor='${XCOLOR}'>${GTMP}° C</span> "
+XPAN+=" <span fgcolor='${XCOLOR}'>${GTMP}°</span> "
 XPAN+="</txt>"
 
 # Genmon tooltip XML
