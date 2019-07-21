@@ -30,13 +30,13 @@ $ cd GENMON_ADDONS_FOLDER
 $ chmod +x *
 ```
 
-## The Scripts
+## Shell Scripts
 
-| Filename            | Preview     | Genmon Period(s)   |
-|:-------------------:|:-----------:|:------------------:|
-| [gen-uptime.sh]     | Coming soon | 1,00               |
-| [gen-cputemp.sh]    | Coming soon | 5,00               |
-| [gen-nvidia.sh]     | Coming soon | 3,60               |
+| Filename            | Preview     | Genmon Period(s)   | Description		                                 |
+|:-------------------:|:-----------:|:------------------:|:-------------------------------------------------:|
+| [gen-uptime.sh]     | Coming soon | 1,00               | Uptime since last login and login time.           |
+| [gen-cputemp.sh]    | Coming soon | 5,00               | CPU temperature for 2 cores                       |
+| [gen-nvidia.sh]     | Coming soon | 3,60               | NVIDIA temperature, used memory, cuda cores, etc  |
 
 <!--- Paths to script -->
 [gen-uptime.sh]: gen-uptime.sh
