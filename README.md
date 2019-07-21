@@ -32,6 +32,8 @@ $ chmod +x *
 
 ## Shell Scripts
 
+This is the order in which i've aligned them on my machines, but you can use any order you like. The font used in the preview screenshots is **"DejaVu Sans Mono 12"**. Genmon periods are intervals and set within xfce4-genmon-plugin properties.
+
 | Filename            | Preview     | Genmon Period(s)   | Description		                                 |
 |:--------------------|:-----------:|:------------------:|:--------------------------------------------------|
 | [gen-uptime.sh]     | Coming soon | 1,00               | Uptime since last login and login time.           |
