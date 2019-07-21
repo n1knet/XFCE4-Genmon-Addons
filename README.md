@@ -4,8 +4,7 @@ Addon scripts fo the XFCE4 Generic Monitor (xfce4-genmon-plugin). These can be w
 
 ## Installation
 
-Obviously you will need XFCE4 and XFCE4 Generic Monitor (xfce4-genmon-plugin). 
-On Debian systems the plugin is in the repository: 
+Obviously you will need XFCE4 and XFCE4 Generic Monitor (xfce4-genmon-plugin).  On Debian systems the plugin is in the repository: 
 
 ```sh
 $ sudo apt update
