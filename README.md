@@ -12,7 +12,7 @@ $ sudo apt update
 $ sudo apt install xfce4-genmon-plugin
 ```
 
-After that, on panel right click → **'Add New Item'** → **'Generic Monitor'** and link to the script via 'Command' property.
+After that, on panel right click → **'Add New Item'** → **'Generic Monitor'** and link to the script via **'Command'** property.
 I recommend you create a folder for all scripts in your home directory for comfortable linking.
 
 ## Permissions
@@ -29,3 +29,17 @@ Or to make **all** scripts executable **inside** your script folder:
 $ cd GENMON_ADDONS_FOLDER
 $ chmod +x *
 ```
+
+## The Scripts
+
+| Filename            | Preview     | Genmon Period(s)   |
+|:-------------------:|:-----------:|:------------------:|
+| [gen-uptime.sh]     | Coming soon | 1,00               |
+| [gen-cputemp.sh]    | Coming soon | 5,00               |
+| [gen-nvidia.sh]     | Coming soon | 3,60               |
+
+<!--- Paths to script -->
+[gen-uptime.sh]: gen-uptime.sh
+[gen-nvidia.sh]: gen-nvidia.sh
+[gen-cputemp.sh]: gen-cputemp.sh
+
