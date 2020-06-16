@@ -60,6 +60,7 @@ if [ $CORE1 -gt 50 ]; then
 	IND1="#FFFF00" #yellow
 elif [ $CORE1 -gt 70 ]; then
 	IND1="#FF0000" #red
+	show_warning
 else
 	IND1="#33CC00" #green
 fi
@@ -69,6 +70,7 @@ if [ $CORE1 -gt 50 ]; then
 	IND2="#FFFF00" #yellow
 elif [ $CORE1 -gt 70 ]; then
 	IND2="#FF0000" #red
+	show_warning
 else
 	IND2="#33CC00" #green
 fi
@@ -78,6 +80,7 @@ if [ $CORE1 -gt 50 ]; then
 	IND3="#FFFF00" #yellow
 elif [ $CORE1 -gt 70 ]; then
 	IND3="#FF0000" #red
+	show_warning
 else
 	IND3="#33CC00" #green
 fi

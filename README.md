@@ -40,7 +40,7 @@ This is the order in which i've aligned them on my machines, but you can use any
 |:--------------------|:-------------:|:------------------:|:--------------------------------------------------|
 | [gen-uptime.sh]     | ![pr-uptime]  | 1,00               | Uptime since last login and login time.           |
 | [gen-cputemp.sh]    | ![pr-cputemp] | 2,00               | CPU temperature for 2 cores                       |
-| [gen-cputemp-4.sh]  | ![pr-cputemp] | 2,00               | CPU temperature for 4 cores                       |
+| [gen-cputemp-4.sh]  | ![pr-cput-4]  | 2,00               | CPU temperature for 4 cores                       |
 | [gen-nvidia.sh]     | ![pr-nvtemp]  | 3,60               | NVIDIA temperature, used memory, CUDA cores, etc  |
 
 <!--- Paths to script -->
@@ -53,5 +53,6 @@ This is the order in which i've aligned them on my machines, but you can use any
 [pr-pan]: https://raw.githubusercontent.com/niwald/XFCE4-Genmon-Addons/master/preview/genmon-niwald.png "XFCE4 Panel Preview"
 [pr-uptime]: https://raw.githubusercontent.com/niwald/XFCE4-Genmon-Addons/master/preview/uptime.jpg "Uptime"
 [pr-cputemp]: https://raw.githubusercontent.com/niwald/XFCE4-Genmon-Addons/master/preview/cputemp.jpg "CPU Temperature"
+[pr-cput-4]: https://raw.githubusercontent.com/niwald/XFCE4-Genmon-Addons/master/preview/cputemp-4.png "CPU Temperature (4 Cores)"
 [pr-nvtemp]: https://raw.githubusercontent.com/niwald/XFCE4-Genmon-Addons/master/preview/nvidiatemp.jpg "NVIDIA Temperature and Data"
 
