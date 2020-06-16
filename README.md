@@ -39,14 +39,15 @@ This is the order in which i've aligned them on my machines, but you can use any
 | Filename            | Preview       | Genmon Period(s)   | Description		                               |
 |:--------------------|:-------------:|:------------------:|:--------------------------------------------------|
 | [gen-uptime.sh]     | ![pr-uptime]  | 1,00               | Uptime since last login and login time.           |
-| [gen-cputemp.sh]    | ![pr-cputemp] | 5,00               | CPU temperature for 2 cores                       |
-| [gen-cputemp-4.sh]  | ![pr-cputemp] | 5,00               | CPU temperature for 4 cores                       |
+| [gen-cputemp.sh]    | ![pr-cputemp] | 2,00               | CPU temperature for 2 cores                       |
+| [gen-cputemp-4.sh]  | ![pr-cputemp] | 2,00               | CPU temperature for 4 cores                       |
 | [gen-nvidia.sh]     | ![pr-nvtemp]  | 3,60               | NVIDIA temperature, used memory, CUDA cores, etc  |
 
 <!--- Paths to script -->
 [gen-uptime.sh]: gen-uptime.sh
 [gen-nvidia.sh]: gen-nvidia.sh
 [gen-cputemp.sh]: gen-cputemp.sh
+[gen-cputemp-4.sh]: gen-cputemp-4.sh
 
 <!--- Previews -->
 [pr-pan]: https://raw.githubusercontent.com/niwald/XFCE4-Genmon-Addons/master/preview/genmon-niwald.png "XFCE4 Panel Preview"
